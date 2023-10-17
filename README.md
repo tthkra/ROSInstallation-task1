@@ -1,7 +1,7 @@
-# ROSinstallation-task1
+# ROSInstallation-task1
 
 
-to install ROS, you need first to have a compatible vesrion of Ubuntu installed, if you would use ROS melodic version as i do, you could use Ubuntu 18.04.6 LTS (Bionic Beaver). after you install ubunto, open the terminal and paste the following commands:
+to install ROS, you need first to have a linux based OS. If you are using Windows or macOS, you can install VirtualBox software to run Linux on your device. After that, you need to choose a compatible vesrion of Ubuntu to install. If you are using ROS Melodic, you can use Ubuntu 18.04.6 LTS (Bionic Beaver). Once you have installed Ubuntu, open the terminal and run the following commands:
 
 ### 1. set up sources.list 
 ` sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list' `
